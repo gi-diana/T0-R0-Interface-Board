@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ISO1050DUB-ISO1050DUB
+#
+DEF ISO1050DUB-ISO1050DUB IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ISO1050DUB-ISO1050DUB" 950 200 50 H V L CNN
+F2 "SOP254P1040X485-8N" 950 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/1299/0900766b812994b4.pdf" 950 0 50 H I L CNN
+F4 "CAN Transceiver 1Mbit/s ISO 11898-2 Silent-Mode 8pins SOIC" 950 -100 50 H I L CNN "Description"
+F5 "4.85" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ISO1050DUB" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "7967994P" 950 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/7967994P" 950 -600 50 H I L CNN "RS Price/Stock"
+F10 "595-ISO1050DUB" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-ISO1050DUB" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X VCC1 1 0 0 200 R 50 50 0 0 B
+X RXD 2 0 -100 200 R 50 50 0 0 B
+X TXD 3 0 -200 200 R 50 50 0 0 B
+X GND1 4 0 -300 200 R 50 50 0 0 B
+X GND2 5 1100 -300 200 L 50 50 0 0 B
+X CANL 6 1100 -200 200 L 50 50 0 0 B
+X CANH 7 1100 -100 200 L 50 50 0 0 B
+X VCC2 8 1100 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library
